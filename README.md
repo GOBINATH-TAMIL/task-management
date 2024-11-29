@@ -1,5 +1,13 @@
 Hi,
 This is a Task Management Web Application, created using Python programming language.
+In this application, I have implemented three user roles with specific functionalities: Admin, Manager, and Developer.
+The Admin has the authority to add new users to the application. While adding a user, the Admin assigns a role to them, either as a Manager or a Developer.
+The Manager can create and assign tasks to Developers.
+The Developer can view the tasks assigned to them and update their status.
+Before using this application, users must log in through the Login Page, which serves as an authentication mechanism. This ensures that only authorized users can access the application and perform tasks based on their assigned roles.
+The authentication system adds a layer of security, enabling role-specific access for Admins, Managers, and Developers.
+This role-based structure ensures proper task delegation and management within the application.
+
 For building the user interface, I utilized Streamlit, a powerful and easy-to-use Python library for creating interactive web applications. 
 Streamlit allows developers to turn Python scripts into shareable web apps with minimal effort. 
 It is especially useful for creating data-driven applications and dashboards.
