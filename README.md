@@ -54,6 +54,10 @@ Inside the virtual environment, install the necessary libraries using requiremen
 
 command: "pip install -r requirements.tx"
 
+4)create database
+
+Before running the application, ensure that your MySQL database server is running. The MySQL server should have a database named streamlit_db, as specified in the code.
+
 5)Run the Application
 
 Run the testing3.py file using the following command
